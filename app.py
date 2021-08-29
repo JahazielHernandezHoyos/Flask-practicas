@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     nombre = "cualquier cosa que queramos"
-    return render_template("index.html", variabledenombre=nombre)
+    return render_template("index.html", variabledenombre=nombre)#archivo jinja 
 
 
 
